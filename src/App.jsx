@@ -3,7 +3,7 @@ import Logo from './assets/images/Интернет-магазин светоди
 import Contacts from './components/Contacts/Contacts';
 import './App.css';
 import Greeting from './components/Greeting/Greeting';
-import { info } from './assets/info/info';
+import { info, orderInfo } from './assets/info/info';
 import OrderDescription from './components/OrderDescription/OrderDescription';
 
 const App = () => {
@@ -18,17 +18,18 @@ const App = () => {
 				<div className='Greeting'>
 					<Greeting customerName={info.customerName} order={info.order}/>
 				</div>
-				<div className='Order-description'>
-					<OrderDescription
-						customerName={info.customerName}
-						customerAddress={info.customerAddress}
-						customerEmail={info.customerEmail}
-						customerPhone={info.customerPhone}
-						performer={info.performer}
-						performerManager={info.performerManager}
-						performerPhone={info.performerPhone}
-						install={info.install}/>
-				</div>
+				<OrderDescription
+					header={orderInfo.orderInfo.header}
+					info={orderInfo.orderInfo.info}/>
+				<OrderDescription
+					header={orderInfo.setInfo.header}
+					info={orderInfo.setInfo.info}/>
+				<OrderDescription
+					header={orderInfo.specifications.header}
+					info={orderInfo.specifications.info}/>
+				<OrderDescription
+					header={orderInfo.orderAmount.header}
+					info={orderInfo.orderAmount.info}/>
 			</article>
 			<footer>
 				<Contacts/>
