@@ -1,0 +1,19 @@
+.Container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    width: 100%;
+    margin-bottom: 20px;
+}
+header a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+
+header img {
+    height: 50px;
+}

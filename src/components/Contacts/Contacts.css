@@ -1,0 +1,22 @@
+.Contacts-item {
+    margin-bottom: 5px;
+    min-height: 30px;
+    line-height: 30px;
+    padding-left: 40px;
+    position: relative;
+    vertical-align: middle;
+    white-space: pre-wrap;
+}
+
+.Contacts-item img {
+    position: absolute;
+    height: 25px;
+    width: 20px;
+    left: 0;
+    top: 3px;
+}
+
+.Contacts-item:last-child img {
+    height: 17px;
+    top: 7px;
+}
