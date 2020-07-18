@@ -11,7 +11,7 @@
     color: black;
 }
 
-.Contacts-item:nth-child(n+2):hover {
+.Contacts-item:nth-child(n + 2):hover {
     color: lightgray;
 }
 
@@ -26,4 +26,8 @@
 .Contacts-item:last-child img {
     height: 17px;
     top: 7px;
+}
+
+footer {
+    margin-top: 10px;
 }

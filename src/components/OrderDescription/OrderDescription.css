@@ -1,6 +1,11 @@
 .Order-description {
     margin-bottom: 10px;
 }
+
+.Order-description h2 {
+    margin-bottom: 10px;
+}
+
 .OrderDescription-container {
     display: grid;
     grid-template-columns: minmax(110px, 250px) minmax(180px, 78%);

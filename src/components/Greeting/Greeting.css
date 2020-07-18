@@ -1,0 +1,9 @@
+.Greeting {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.Greeting h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
