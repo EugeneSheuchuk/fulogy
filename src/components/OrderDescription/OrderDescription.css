@@ -1,0 +1,4 @@
+.OrderDescription-container {
+    display: grid;
+    grid-template-columns: 110px minmax(180px, 78%);
+}

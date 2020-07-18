@@ -1,4 +1,5 @@
 .Contacts-item {
+    display: block;
     margin-bottom: 5px;
     min-height: 30px;
     line-height: 30px;
@@ -6,6 +7,12 @@
     position: relative;
     vertical-align: middle;
     white-space: pre-wrap;
+    text-decoration: none;
+    color: black;
+}
+
+.Contacts-item:nth-child(n+2):hover {
+    color: lightgray;
 }
 
 .Contacts-item img {

@@ -11,14 +11,14 @@ const Contacts = () => {
 				<img src={Address} alt="Address"/>
 				141544, МО, Пятницкое шоссе, 2, д.Юрлово
 			</div>
-			<div className='Contacts-item'>
+			<a className='Contacts-item' href='tel:8-800-505-65-33'>
 				<img src={Phone} alt="Phone"/>
 				8 800 505-65-33
-			</div>
-			<div className='Contacts-item'>
+			</a>
+			<a className='Contacts-item' href='mailto:info@fulogy.com'>
 				<img src={Email} alt="Email"/>
 				info@fulogy.com
-			</div>
+			</a>
 		</React.Fragment>
 	);
 }
